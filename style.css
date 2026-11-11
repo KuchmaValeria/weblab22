@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #2d2d44;
+    background-color: #fff8fb;
+}
+
+/* контент и меню: максимум 960px, по центру */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* шапка и подвал на всю ширину окна */
+#header {
+    background: linear-gradient(90deg, #7b5cff, #ff6f91);
+    color: #fff;
+    padding: 12px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+#site-title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#menu {
+    background-color: #ffe3ec;
+    border-bottom: 3px solid #ff6f91;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    display: block;
+    padding: 12px 18px;
+    color: #5b3cc4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #7b5cff;
+    color: #fff;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #7b5cff;
+    border-bottom: 2px solid #ffb3c6;
+    padding-bottom: 4px;
+}
+
+main a {
+    color: #d6336c;
+}
+
+main a:hover {
+    color: #7b5cff;
+}
+
+input,
+textarea {
+    border: 1px solid #b9a7ff;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+fieldset {
+    border: 1px solid #ffb3c6;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+/* языки программирования: галочки в несколько колонок */
+.languages label {
+    display: inline-block;
+    min-width: 140px;
+    margin: 4px 0;
+}
+
+button {
+    background-color: #7b5cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6f91;
+}
+
+#footer {
+    background: linear-gradient(90deg, #7b5cff, #ff6f91);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* таблица */
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 8px;
+    font-weight: bold;
+    color: #5b3cc4;
+}
+
+th,
+td {
+    border: 1px solid #b9a7ff;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #7b5cff;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffe3ec;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
